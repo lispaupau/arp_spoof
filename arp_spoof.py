@@ -42,4 +42,4 @@ try:
 except KeyboardInterrupt:
     print('\n[-] Detected CTRL + C ..... Resetting ARP tables.... Please wait.\n')
     restore(target_ip, gateway_ip)
-    restwore(gateway_ip, target_ip)
+    restore(gateway_ip, target_ip)
